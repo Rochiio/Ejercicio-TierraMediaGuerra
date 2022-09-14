@@ -1,4 +1,4 @@
 # Ejercicio Tierra Media Guerra
 Ejercicio para practicar Kotlin
 
-[!imagen](./img/img.jpeg)
+![imagen](./img/img.jpeg)
