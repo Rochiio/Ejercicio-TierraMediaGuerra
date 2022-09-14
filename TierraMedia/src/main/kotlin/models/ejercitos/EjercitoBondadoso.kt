@@ -1,6 +1,8 @@
-package models
+package models.ejercitos
 
 import models.enums.RazasBondadosas
+import models.interfaces.Bondadoso
+import models.interfaces.Ejercito
 
 class EjercitoBondadoso: Ejercito, Bondadoso {
 

@@ -1,6 +1,4 @@
-package models
-
-import models.enums.RazasBondadosas
+package models.interfaces
 
 interface Ejercito {
     fun functionRandom():Int = (1..10).random()

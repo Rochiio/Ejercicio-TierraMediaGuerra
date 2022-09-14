@@ -1,8 +1,10 @@
-package models
+package models.ejercitos
 
 import models.enums.RazasMalvadas
+import models.interfaces.Ejercito
+import models.interfaces.Malvado
 
-class EjercitoMalvado : Ejercito, Malvado{
+class EjercitoMalvado : Ejercito, Malvado {
     private val numSurenos: Pair<RazasMalvadas,Int> = Pair(RazasMalvadas.SUREÑOS_MALOS, functionRandom())
     private val numOrcos: Pair<RazasMalvadas,Int> = Pair(RazasMalvadas.ORCOS, functionRandom())
     private val numGoblins: Pair<RazasMalvadas,Int> = Pair(RazasMalvadas.GOBLINS, functionRandom())
