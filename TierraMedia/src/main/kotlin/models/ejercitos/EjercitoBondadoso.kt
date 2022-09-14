@@ -22,7 +22,9 @@ class EjercitoBondadoso: Ejercito, Bondadoso {
                 " ${numElfos.first} con un total de ${numElfos.second} )"
     }
 
-
+    /**
+     * Número de la raza del personaje
+     */
     override fun numberOfPersonaje(personaje: RazasBondadosas):Int{
         return when(personaje){
             RazasBondadosas.PELOSOS -> numPelosos.second

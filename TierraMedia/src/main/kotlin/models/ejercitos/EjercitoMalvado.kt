@@ -20,6 +20,10 @@ class EjercitoMalvado : Ejercito, Malvado {
                 " ${numTrolls.first} con un total de ${numTrolls.second} )"
     }
 
+
+    /**
+     * Número de la raza del personaje
+     */
     override fun numberOfPersonaje(personaje: RazasMalvadas):Int{
         return when(personaje){
             RazasMalvadas.SUREÑOS_MALOS -> numSurenos.second
