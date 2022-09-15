@@ -1,10 +1,9 @@
 package models.ejercitos
 
 import models.enums.RazasBondadosas
-import models.interfaces.Bondadoso
 import models.interfaces.Ejercito
 
-class EjercitoBondadoso: Ejercito, Bondadoso {
+class EjercitoBondadoso: Ejercito<RazasBondadosas> {
 
     private val numPelosos: Pair<RazasBondadosas,Int> = Pair(RazasBondadosas.PELOSOS, functionRandom())
     private val numSurenos: Pair<RazasBondadosas,Int> = Pair(RazasBondadosas.SUREÑOS_BUENOS, functionRandom())
